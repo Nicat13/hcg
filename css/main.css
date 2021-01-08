@@ -180,7 +180,12 @@ h6 {
 	margin-bottom: 1.5em;
 	margin-top: 2.5em;
 }
-
+@media (min-width: 1200px) and (max-width: 1499px) {
+	.page_header {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+  }
 @media (max-width: 991px) {
 	h1 {
 		font-size: 2.8rem;
@@ -28133,7 +28138,7 @@ body.active-side-header.slide-right .page_header_side {
 	bottom: 60px;
 	display: flex;
 	justify-content: center;
-	left: 0;
+	left: 14px;
 	position: absolute;
 	right: 0;
 }
