@@ -27044,7 +27044,7 @@ a img.aligncenter {
 }
 
 a.logo img {
-	width: 60px;
+	width: 85px;
 }
 
 .page_topline {
@@ -27351,13 +27351,11 @@ a.logo:hover {
 
 a.logo img {
 	display: inline-block;
-	margin-right: 18px;
 }
 
 @media (max-width: 1200px) {
 	a.logo img {
-		max-height: 50px;
-		width: 45px;
+		width: 60px;
 	}
 }
 
